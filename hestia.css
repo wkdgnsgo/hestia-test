@@ -1,0 +1,139 @@
+:root {
+    --font-elarge: 32px;
+    --font-large: 20px;
+    --font-regular: 16px;
+    --font-medium: 14px;
+    --font-small: 12px;
+    --font-micro: 10px;
+
+    --spacing: 12px;
+    --spacing-small: 6px;
+
+}
+
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    height: 1500px;
+    
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--spacing);
+    background-color: black;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+
+}
+
+header .logo img {
+    margin-left: 100px;
+    width: 300px;
+    height: 100px;
+}
+
+header .title-menu {
+    align-self: center;
+    color: gold;
+    font-family: Roboto;
+    font-size: var(--font-large);
+    width: 100%;
+    margin-left: 50px;
+    
+}
+
+header span {
+    margin-right: 30px;
+}
+
+header .icons{
+    color:gold;
+    align-self: center;
+    width: 200px;
+    
+}
+
+header .icons i{
+    
+    margin-right: 10px;
+    
+}
+
+.big-img {
+    background-image: linear-gradient(to top, black, transparent), url("./imgs/77e9be002cdd5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    width: 100%;
+    height: 50%;
+}
+
+.netflix-like-ecs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+.test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: top;
+    text-align: center;
+}
+.img-text{
+    color: white;
+    font-size: var(--font-elarge);
+    align-self: center;
+}
+
+.title {
+    color: white;
+    font-size: 50px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+.img-text1{
+    color: white;
+    font-size: var(--font-elarge);
+  
+
+}
+
+.img-text2{
+    color: gold;
+    font-size: var(--font-elarge);
+
+
+}
+
+section img {
+    transition: transform .2s;
+    width: 280px;
+    height: 320px;
+    margin-bottom: 20px;
+    
+    border: none;
+    
+}
+
+section img:hover {
+    transform: scale(1.10);
+}
+
+.empty{
+    height:500px;
+}
